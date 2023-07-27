@@ -6,20 +6,19 @@ This is a secure Spring Boot CRUD (Create, Read, Update, Delete) application tha
 
 - Secure CRUD endpoints for managing items in the MySQL database.
 - Uses HTTPS for secure communication.
-- Implements JWT as the authentication provider.
+- Implements JWT authentication for stateless and token-based security.
 
 ## Requirements
 
 - Java JDK 17
 - MySQL Server
-- JWT provider
 
 ## Setup
 
 1. Clone the repository to your local machine:
 ```bash
-git clone https://github.com/your_username/spring-boot-mysql-crud.git
-cd spring-boot-mysql-crud
+git clone https://github.com/giovannigv/SpringBootCRUD.git
+cd SpringBootCRUD
 ```
 
 2. Set up the MySQL Database:
